@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Montserrat&display=swap');
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+
+body {
+    padding: 20px;
+    background-image: linear-gradient(-20deg, #aaa 0%, #aaa 100%);
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-family: 'Yeseva One', cursive;
+}
+
+ul {
+    margin-left: -45px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.main {
+    width: 800px;
+    height: 610px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(70, 70, 70);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img {
+    background-image: url(../img/IMG-20190712-WA0004.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 5px solid rgb(216, 213, 213);
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    font-weight: bold;
+    color: #324e63;
+    text-shadow: 2px 3px 2px rgb(160, 159, 159);
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: #324e63;
+}
+
+.p {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: #324e63;
+}
+
+.tombol {
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 5px solid gray;
+    color: white;
+}
+
+.main ul li {
+    padding: 10px;
+    font-size: 2em;
+}
+
+.main ul li a {
+    color: black;
+}
+
+.kembali {
+    font-size: 2em;
+    text-decoration: none;
+    border-radius: 5px 5px 10%;
+    color: black;
+    font-weight: bold;
+}

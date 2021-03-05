@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*STYLE*/
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #aaa;
+    background-image: url(gambar/bush.png);
+    color: rgb(59, 59, 59);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(216, 213, 213);
+}
+
+
+.header {
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 25px;
+}
+
+.header .judul {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero {
+    height: 480px;
+    background-image: url(../img/album1.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+    border-top: 8px solid rgb(59, 58, 58);
+    border-bottom: 8px solid rgb(59, 58, 58);
+    border-left: 8px solid rgb(59, 58, 58);
+    border-right: 8px solid rgb(59, 58, 58);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 13px;
+    margin-top: -1px;
+    font-weight: bold;
+}
+
+.content .penulis a {
+    color: black;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.tombol {
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 5px solid gray;
+    color: white;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 100px;
+}
+
+.footer {
+    background-color: rgb(92, 91, 91);
+    padding: 5px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}

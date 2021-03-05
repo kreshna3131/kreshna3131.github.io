@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Yeseva+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: Montserrat, sans-serif; */
+    font-family: 'Lemonada', cursive;
+    font-family: 'Yeseva One', cursive;
+    padding-top: 70px;
+    background-color: #eee;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(47, 47, 47);
+    width: 100%;
+    z-index: 10;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 20px;
+    margin-left: 70px;
+    font: Montserrat, sans-serif;
+}
+
+.profil a {
+    color: white;
+    text-decoration: none;
+}
+
+.profil:visited {
+    color: white;
+    text-decoration: none;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.blinking {
+    margin-left: 10%;
+    margin-top: 9%;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 5vw;
+    font-family: josefinSans-bold;
+    color: rgb(65, 64, 64);
+    border-right: 9px solid rgb(47, 47, 47);
+    text-shadow: 0px 0px 1px rgb(47, 47, 47);
+
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(27) forwards, blink-caret .8s step-end infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #eee;
+    }
+}
+
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+
+    30% {
+        width: 100%;
+    }
+
+    80% {
+        width: 100%
+    }
+
+    90% {
+        width: 0%;
+    }
+
+    100% {
+        width: 0%
+    }
+}
+
+#main {
+    text-align: center;
+    max-width: 800px;
+    margin: 15px auto;
+    min-width: 400px;
+}
+
+#main h1 {
+    font-family: Lemonada, sans-serif;
+    font-size: 12vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+#main p {
+    margin: 0;
+    font-size: 5vw;
+    color: rgb(77, 76, 76);
+}
+
+#img-div {
+    background-color: white;
+    padding: 15px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+#tribute-info {
+    width: 600px;
+    margin: 50px auto;
+
+}
+
+#tribute-info h2 {
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#tribute-info li {
+    width: 600px;
+    height: 200px;
+    margin: 5px;
+}
+
+.album {
+    position: relative;
+}
+
+.album .album-img {
+    width: 100%;
+    height: 100%;
+}
+
+.album .album-overlay {
+    background-color: rgb(47, 47, 47);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0;
+    transition: .8s;
+}
+
+.album .album-overlay:hover {
+    opacity: 1;
+}
+
+.release-date {
+    font-size: .8em;
+}
+
+.album-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#videos {
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+
+.video-list {
+    margin-top: 30px;
+}
+
+#follow {
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 5px 0;
+}
+
+#follow h2 {
+    color: white;
+}
+
+#follow ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#follow ul li {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+#follow li a {
+    color: white;
+}
+
+.g-ytsubscribe {
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    width: 600px;
+}
+
+.footer {
+    background-color: rgb(31, 31, 31);
+    padding: 5px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
