@@ -567,6 +567,18 @@ img {
   width: 13%;
 }
 
+.skills__cypress {
+  width: 50%;
+}
+
+.skills__ui_testing {
+  width: 70%;
+}
+
+.skills__api {
+  width: 40%;
+}
+
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -666,7 +678,7 @@ img {
 /*==================== SERVICES ====================*/
 .services__container {
   gap: 1.5rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .services__content {
@@ -1109,7 +1121,7 @@ img {
   .project__container,
   .contact__container,
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
   }
 
   .qualification__sections {
